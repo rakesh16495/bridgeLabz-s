@@ -1,0 +1,26 @@
+todat I am going to pune
+8) which pwd 
+9) cd .. --> one lvl up
+10) cd ../../  --> lvl 2 up in directory
+11) ls , cd "any folder without slash" --> relative path
+12) ls -a --> displays including hidden files
+13) ls -l ==> xtra information
+14) mkdir --> creates directory
+15) rmdir --> removes directory
+16) rm -rf --> remove with content
+17) cat filename --> displays content
+18) file filename ==> displays type of file
+19) touch filename--> to create empty filename
+20) rm filename --> removes filename and cant b recovered
+21) cp "filename" "directory" --> copy
+22) cp i "filename" "dir" --> to prevent overwrite
+23) mv "filename" "directory" --> move filename
+24) mv i "filename" "dir" --> to prevent overwrite
+25) head "filenam" --> displays 1st 10 lines in file
+26) head -4 "filenam" --> displays 1st 4 lines in file
+27) tail "filenam" --> displays 1st 10 lines in file
+28) tail -4 "filenam" --> displays 1st 4 lines in file
+29) cat "filenam" --? cp standard input to standard output/ displays complete content of file
+30) cat > test.txt --> we can write in file
+31) cat > test.txt test2.txt --> writes content from 1 file to other
+32) tac "filename" --> reverse of cat , displays content in reverse

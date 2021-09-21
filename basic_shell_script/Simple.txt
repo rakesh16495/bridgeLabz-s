@@ -1,0 +1,9 @@
+todat I am going to pune
+Desktop Applications such as acrobat reader, media player, antivirus, etc.
+Web Applications such as irctc.co.in, javatpoint.com, etc.
+Enterprise Applications such as banking applications.
+Mobile
+Embedded System
+Smart Card
+Robotics
+Games, etc.
