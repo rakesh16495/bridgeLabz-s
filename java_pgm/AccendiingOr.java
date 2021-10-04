@@ -5,7 +5,7 @@ class AccendiingOr
 	public static void main(String args[])
 	{
 		int arr[]=new int[]{5,7,2,1,3};
-		int temp=0;
+		int temprary=0;
 		int i;
 		System.out.println("Before sorting Array ele is:");
 		
@@ -20,9 +20,9 @@ class AccendiingOr
 			{
 				if(arr[i]>arr[j])	
 				{
-					temp=arr[i];
+					temprary=arr[i];
 					arr[i]=arr[j];
-					arr[j]=temp;
+					arr[j]=temprary;
 				}
 			}
 		}
