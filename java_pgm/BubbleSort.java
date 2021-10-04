@@ -4,24 +4,24 @@ class BubbleSort
 {
 	public static void main(String args[])
 	{
-		int arr[]={50,25,5,20,10};
+		int ar[]={50,25,5,20,10};
 		int temp,i,j;
 		
 		System.out.println("After Bubble sort is:");
 		for(i=0;i<5;i++)
 		{
-			System.out.println(arr[i]);
+			System.out.println(ar[i]);
 		}	
 	
 		for(i=0;i<5;i++)
 		{	
 			for(j=i+1;j<5;j++)
 			{
-				if(arr[i]>arr[j])
+				if(ar[i]>ar[j])
 				{
-					temp=arr[i];
-					arr[i]=arr[j];
-					arr[j]=temp;
+					temp=ar[i];
+					ar[i]=ar[j];
+					ar[j]=temp;
 				}
 			}
 		}
@@ -29,7 +29,7 @@ class BubbleSort
 		System.out.println("Bubble sort is:");
 		for(i=0;i<5;i++)
 		{
-			System.out.println(arr[i]);
+			System.out.println(ar[i]);
 		}	
 	}
 }
